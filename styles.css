@@ -1,0 +1,19 @@
+:root {
+    --container-color: none;
+    --grid-item-color: hsl(162, 81%, 69%);
+}
+
+.grid-container {
+    background-color: var(--container-color);
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 25% 100px auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: var(--grid-item-color);
+    border: 1px solid black;
+    padding: 20px;
+}
+

@@ -135,7 +135,7 @@
 #gestreepte-link:visited {
     font-family: helvetica, sans-serif;
     font-size: 30px;
-    color: #D84282;
+    color: blue;
     text-decoration: none;
 }
 
@@ -147,6 +147,7 @@
     height: 3px;
     background-color: #D84282;
     transition: width .60s ease-in-out;
+
 }
 
 
@@ -155,3 +156,14 @@
     /* alle andere properties worden behouden, we overschrijven alleen de width property */
     width: 100%;
 }
+
+/*oefening transitie*/
+
+#voorbeeld-overgang{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50px;
+    width: 40px;
+    background-color: #D84282;
+}
+

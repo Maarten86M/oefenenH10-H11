@@ -8,6 +8,10 @@ p {
     font-size: 16px;
 }
 
+#ibiza-foto{
+    width: 100%;
+}
+
 #introduction {
     height: 150px;
     width: 100%;
@@ -18,7 +22,8 @@ p {
     #introduction {
         background-color: red;
     }
-    #test-button{
+
+    #test-button {
         display: none;
     }
 
@@ -31,7 +36,8 @@ p {
     #introduction {
         background-color: greenyellow;
     }
-    #test-button{
+
+    #test-button {
         display: none;
     }
 
@@ -44,7 +50,8 @@ p {
     #introduction {
         background-color: blue;
     }
-    #test-button{
+
+    #test-button {
         display: none;
     }
 
@@ -54,7 +61,10 @@ p {
 }
 
 @media (max-width: 576px) {
-    #introduction{
+    #introduction {
+        display: none;
+    }
+    #ibiza-foto {
         display: none;
     }
 }
@@ -63,5 +73,4 @@ p {
     width: 100%;
     height: 30px;
     background-color: var(--grid-item-color);
-
 }

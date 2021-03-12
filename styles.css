@@ -200,3 +200,42 @@
 /*    width: 100%;*/
 /*}*/
 
+:root {
+    --icon-item-color: hsl(334, 66%, 55%);
+    --icon-item-hover-color: hsl(260, 100%, 80%);
+}
+
+#menu {
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    background-color: var(--icon-item-color);
+    transition: background-color .60s ease-in-out;
+}
+
+#menu:hover{
+    background-color: var(--icon-item-hover-color);
+}
+#menu:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+}
+
+#menu:after{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 150px;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+}

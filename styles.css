@@ -14,13 +14,32 @@ p {
     background-color: var(--container-color);
 }
 
-@media (max-width: 600px) {
+@media only screen and (min-width: 576px) {
     #introduction {
-        display: none;
-    }
-    p {
-        font-size: 10px;
-        color: red;
+        background-color: red;
     }
 
+    p {
+        color: red;
+    }
+}
+
+@media only screen and (min-width: 786px) {
+    #introduction {
+        background-color: greenyellow;
+    }
+
+    p {
+        color: greenyellow;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #introduction {
+        background-color: blue;
+    }
+
+    p {
+        color: blue;
+    }
 }

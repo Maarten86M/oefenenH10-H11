@@ -124,4 +124,34 @@
 /*    border-bottom: 100px solid transparent;*/
 /*    border-right: 100px solid var(--fifth-item-color);*/
 /*}*/
+#container {
+    width: 240px;
+    height: 60px;
+    background-color: yellow;
+}
 
+#gestreepte-link,
+#gestreepte-link:link,
+#gestreepte-link:visited {
+    font-family: helvetica, sans-serif;
+    font-size: 30px;
+    color: #D84282;
+    text-decoration: none;
+}
+
+/* BEGIN STAAT */
+#gestreepte-link::after {
+    display: block;
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #D84282;
+    transition: width .60s ease-in-out;
+}
+
+
+/* EIND STAAT */
+#gestreepte-link:hover::after {
+    /* alle andere properties worden behouden, we overschrijven alleen de width property */
+    width: 100%;
+}

@@ -3,17 +3,3 @@
     --grid-item-color: hsl(162, 81%, 69%);
 }
 
-.grid-container {
-    background-color: var(--container-color);
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    padding: 10px;
-}
-
-.grid-item {
-    background-color: var(--grid-item-color);
-    border: 1px solid black;
-    padding: 20px;
-}
-

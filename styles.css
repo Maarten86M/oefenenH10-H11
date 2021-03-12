@@ -18,4 +18,9 @@ p {
     #introduction {
         display: none;
     }
+    p {
+        font-size: 10px;
+        color: red;
+    }
+
 }

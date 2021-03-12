@@ -18,6 +18,9 @@ p {
     #introduction {
         background-color: red;
     }
+    #test-button{
+        display: none;
+    }
 
     p {
         color: red;
@@ -27,6 +30,9 @@ p {
 @media only screen and (min-width: 786px) {
     #introduction {
         background-color: greenyellow;
+    }
+    #test-button{
+        display: none;
     }
 
     p {
@@ -38,8 +44,24 @@ p {
     #introduction {
         background-color: blue;
     }
+    #test-button{
+        display: none;
+    }
 
     p {
         color: blue;
     }
+}
+
+@media (max-width: 576px) {
+    #introduction{
+        display: none;
+    }
+}
+
+#test-button {
+    width: 100%;
+    height: 30px;
+    background-color: var(--grid-item-color);
+
 }

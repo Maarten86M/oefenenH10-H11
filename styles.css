@@ -1,8 +1,16 @@
+:root {
+    --main-item-color: hsl(34, 98%, 68%);
+    --second-item-color: hsl(344, 96%, 71%);
+    --third-item-color: hsl(85, 100%, 72%);
+    --fourth-item-color: hsl(196, 100%, 77%);
+    --fifth-item-color: hsl(260, 100%, 80%);
+}
+
 #talkbubble {
     margin-left: 20px;
     width: 120px;
     height: 80px;
-    background-color: #D84282;
+    background-color: var(--main-item-color);
     position: relative;
     border-radius: 10px;
 }
@@ -16,7 +24,7 @@
     width: 0;
     height: 0;
     border-top: 13px solid transparent;
-    border-right: 20px solid #D84282;
+    border-right: 20px solid var(--main-item-color);
     border-bottom: 13px solid transparent;
     position: relative;
 }
@@ -31,7 +39,7 @@
     height: 0;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    border-left: 100px solid yellowgreen;
+    border-left: 100px solid var(--second-item-color);
 }
 
 #andere-vorm::before {
@@ -42,7 +50,7 @@
     height: 50px;
     top: -30px;
     left: -150px;
-    background-color: yellowgreen;
+    background-color: var(--second-item-color);
 }
 
 #vierkant-in-vierkant {
@@ -51,7 +59,7 @@
     position: relative;
     height: 150px;
     width: 150px;
-    background-color: palevioletred;
+    background-color: var(--third-item-color);
 }
 
 #vierkant-in-vierkant::before {
@@ -71,7 +79,7 @@
     position: relative;
     height: 150px;
     width: 150px;
-    background-color: cornflowerblue;
+    background-color: var(--fourth-item-color);
     border-radius: 50%;
 }
 
@@ -83,7 +91,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #D84282;
+    background-color: var(--fourth-item-color);
 }
 
 #after-oefening::before {
@@ -94,7 +102,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: yellow;
+    background-color: var(--fourth-item-color);
 }
 
 #driekhoek-driehoek {
@@ -105,7 +113,7 @@
     width: 0;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    border-left: 100px solid firebrick;
+    border-left: 100px solid var(--fifth-item-color);
 }
 
 #driekhoek-driehoek::after {
@@ -115,5 +123,5 @@
     top: -100px;
     border-top: 100px solid transparent;
     border-bottom: 100px solid transparent;
-    border-right: 100px solid firebrick;
+    border-right: 100px solid var(--fifth-item-color);
 }

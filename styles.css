@@ -143,11 +143,10 @@
 #gestreepte-link::after {
     display: block;
     content: "";
-    width: 0%;
+    width: 0;
     height: 3px;
     background-color: #D84282;
     transition: width .60s ease-in-out;
-
 }
 
 
@@ -155,6 +154,7 @@
 #gestreepte-link:hover::after {
     /* alle andere properties worden behouden, we overschrijven alleen de width property */
     width: 100%;
+    background-color: goldenrod;
 }
 
 /*oefening transitie*/
@@ -163,7 +163,18 @@
     margin-top: 20px;
     margin-left: 20px;
     width: 250px;
-    background-color: yellow;
+    position: relative;
+}
+
+#container-element::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 50Px;
+    background-color: white;
+    top:0;
+    left: 10px;
 }
 
 
@@ -174,7 +185,7 @@
 }
 
 /*BEGIN STAAT*/
-#voorbeeld-overgang::after {
+#voorbeeld-overgang::before {
     display: block;
     content: "";
     width: 20%;
@@ -185,6 +196,6 @@
 
 
 /*EIND STAAT*/
-#voorbeeld-overgang:hover::after {
+#voorbeeld-overgang:hover::before {
     width: 100%;
 }

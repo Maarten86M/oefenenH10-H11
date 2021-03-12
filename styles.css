@@ -1,5 +1,21 @@
 :root {
-    --container-color: none;
+    --container-color: hsl(110, 72%, 79%);
     --grid-item-color: hsl(162, 81%, 69%);
 }
 
+
+p {
+    font-size: 16px;
+}
+
+#introduction {
+    height: 150px;
+    width: 100%;
+    background-color: var(--container-color);
+}
+
+@media (max-width: 600px) {
+    #introduction {
+        display: none;
+    }
+}

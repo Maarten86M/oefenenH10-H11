@@ -1,8 +1,0 @@
-ul li a {
-    color: #D84282;
-}
-
-ul li a::after {
-    display: inline-block;
-    content: "→";
-}

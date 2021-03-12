@@ -1,126 +1,127 @@
-:root {
-    --main-item-color: hsl(34, 98%, 68%);
-    --second-item-color: hsl(344, 96%, 71%);
-    --third-item-color: hsl(85, 100%, 72%);
-    --fourth-item-color: hsl(196, 100%, 77%);
-    --fifth-item-color: hsl(260, 100%, 80%);
-}
+/*:root {*/
+/*    --main-item-color: hsl(34, 98%, 68%);*/
+/*    --second-item-color: hsl(344, 96%, 71%);*/
+/*    --third-item-color: hsl(85, 100%, 72%);*/
+/*    --fourth-item-color: hsl(196, 100%, 77%);*/
+/*    --fifth-item-color: hsl(260, 100%, 80%);*/
+/*}*/
 
-#talkbubble {
-    margin-left: 20px;
-    width: 120px;
-    height: 80px;
-    background-color: var(--main-item-color);
-    position: relative;
-    border-radius: 10px;
-}
+/*#talkbubble {*/
+/*    margin-left: 20px;*/
+/*    width: 120px;*/
+/*    height: 80px;*/
+/*    background-color: var(--main-item-color);*/
+/*    position: relative;*/
+/*    border-radius: 10px;*/
+/*}*/
 
-#talkbubble::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: -20px;
-    top: 26px;
-    width: 0;
-    height: 0;
-    border-top: 13px solid transparent;
-    border-right: 20px solid var(--main-item-color);
-    border-bottom: 13px solid transparent;
-}
+/*#talkbubble::before {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    left: -20px;*/
+/*    top: 26px;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-top: 13px solid transparent;*/
+/*    border-right: 20px solid var(--main-item-color);*/
+/*    border-bottom: 13px solid transparent;*/
+/*}*/
 
-/*andere vorm gemaakt:*/
+/*!*andere vorm gemaakt:*!*/
 
-#andere-vorm {
-    margin-top: 20px;
-    margin-left: 70px;
-    position: relative;
-    width: 0;
-    height: 0;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-left: 100px solid var(--second-item-color);
-}
+/*#andere-vorm {*/
+/*    margin-top: 20px;*/
+/*    margin-left: 70px;*/
+/*    position: relative;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-top: 100px solid transparent;*/
+/*    border-bottom: 100px solid transparent;*/
+/*    border-left: 100px solid var(--second-item-color);*/
+/*}*/
 
-#andere-vorm::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: -30px;
-    left: -150px;
-    background-color: var(--second-item-color);
-}
+/*#andere-vorm::before {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    top: -30px;*/
+/*    left: -150px;*/
+/*    background-color: var(--second-item-color);*/
+/*}*/
 
-#vierkant-in-vierkant {
-    margin-top: 20px;
-    margin-left: 20px;
-    position: relative;
-    height: 150px;
-    width: 150px;
-    background-color: var(--third-item-color);
-}
+/*#vierkant-in-vierkant {*/
+/*    margin-top: 20px;*/
+/*    margin-left: 20px;*/
+/*    position: relative;*/
+/*    height: 150px;*/
+/*    width: 150px;*/
+/*    background-color: var(--third-item-color);*/
+/*}*/
 
-#vierkant-in-vierkant::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 25px;
-    top: 25px;
-    width: 100px;
-    height: 100px;
-    background-color: white;
-}
+/*#vierkant-in-vierkant::before {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    left: 25px;*/
+/*    top: 25px;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
+/*    background-color: white;*/
+/*}*/
 
-#after-oefening {
-    margin-top: 20px;
-    margin-left: 20px;
-    position: relative;
-    height: 150px;
-    width: 150px;
-    background-color: var(--fourth-item-color);
-    border-radius: 50%;
-}
+/*#after-oefening {*/
+/*    margin-top: 20px;*/
+/*    margin-left: 20px;*/
+/*    position: relative;*/
+/*    height: 150px;*/
+/*    width: 150px;*/
+/*    background-color: var(--fourth-item-color);*/
+/*    border-radius: 50%;*/
+/*}*/
 
-#after-oefening::after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 150px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: var(--fourth-item-color);
-}
+/*#after-oefening::after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    left: 150px;*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    border-radius: 50%;*/
+/*    background-color: var(--fourth-item-color);*/
+/*}*/
 
-#after-oefening::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 300px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: var(--fourth-item-color);
-}
+/*#after-oefening::before {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    left: 300px;*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    border-radius: 50%;*/
+/*    background-color: var(--fourth-item-color);*/
+/*}*/
 
-#driekhoek-driehoek {
-    margin-top: 20px;
-    margin-left: 20px;
-    position: relative;
-    height: 0;
-    width: 0;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-left: 100px solid var(--fifth-item-color);
-}
+/*#driekhoek-driehoek {*/
+/*    margin-top: 20px;*/
+/*    margin-left: 20px;*/
+/*    position: relative;*/
+/*    height: 0;*/
+/*    width: 0;*/
+/*    border-top: 100px solid transparent;*/
+/*    border-bottom: 100px solid transparent;*/
+/*    border-left: 100px solid var(--fifth-item-color);*/
+/*}*/
 
-#driekhoek-driehoek::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: -100px;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-right: 100px solid var(--fifth-item-color);
-}
+/*#driekhoek-driehoek::after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: -100px;*/
+/*    border-top: 100px solid transparent;*/
+/*    border-bottom: 100px solid transparent;*/
+/*    border-right: 100px solid var(--fifth-item-color);*/
+/*}*/
+
